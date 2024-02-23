@@ -1,0 +1,8 @@
+number 1:
+function verificarMaiorIdade(idade) {
+    return idade < 18 ? 'Menor de idade' : 'Maior de idade';
+}
+let idade = 19;
+console.log(verificarMaiorIdade(idade));
+
+number 2:
