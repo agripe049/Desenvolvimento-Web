@@ -6,3 +6,13 @@ let idade = 19;
 console.log(verificarMaiorIdade(idade));
 
 number 2:
+function orderArray() {
+
+    let arr = [1, 2, 3, 6, 7, 9];
+    arr.unshift(0);
+    arr.splice(4, 0, 4, 5);
+    arr.splice(8, 0, 8);
+    
+    return arr
+}
+console.log(orderArray());
