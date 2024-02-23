@@ -16,3 +16,20 @@ function orderArray() {
     return arr
 }
 console.log(orderArray());
+
+3-
+
+function meusDados() {
+    let pessoa = {
+        nome: 'jhon doe',
+        idade: '30',
+        cidade: 'New York'
+    }
+    pessoa.nome = 'Jack';
+    pessoa.cidade = 'Paris';
+
+    delete pessoa.idade;
+    
+    return pessoa;
+}
+console.log(meusDados());
